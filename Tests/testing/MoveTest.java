@@ -39,28 +39,28 @@ public class MoveTest {
     /**
      * Test of getI method, of class Move.
      */
-    @Test
+    @Test//OBSOLETE AFTER IMPLEMENTING GUI
     public void testGetI() {
         System.out.println("getI");
         model.Move instance = new model.Move(1,1);
         int expResult = 1;
         int result = instance.getI();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+        
       
     }
 
     /**
      * Test of getJ method, of class Move.
      */
-    @Test
+    @Test //OBSOLETE AFTER IMPLEMENTING GUI
     public void testGetJ() {
         System.out.println("getJ");
         model.Move instance = new model.Move(1,1);
         int expResult = 1;
         int result = instance.getJ();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+        
         
     }
 }

@@ -42,13 +42,12 @@ public class OthelloTest {
     /**
      * Test of startGame method, of class Othello.
      */
-    @Test
+    @Test //OBSOLETE AFTER IMPLEMENTING GUI
     public void testStartGame() throws Exception {
         System.out.println("startGame");
         model.Othello instance = new model.Othello();
         instance.startGame();
-        // TODO review the generated test code and remove the default call to fail.
-       // fail("The test case is a prototype.");
+
     }
 
     /**
@@ -60,8 +59,7 @@ public class OthelloTest {
         System.out.println("main");
         String[] args = null;
         model.Othello.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-      //  fail("The test case is a prototype.");
+
     }
 */
 

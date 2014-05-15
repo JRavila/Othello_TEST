@@ -69,7 +69,6 @@ public class TurnTest {
         System.out.println("change");
         Turn instance = new Turn();
         instance.change();
-        // TODO review the generated test code and remove the default call to fail.
-       // fail("The test case is a prototype.");
+
     }
 }

@@ -40,7 +40,7 @@ public class BoardTest {
     /**
      * Test of intPlayer method, of class Board.
      *//*
-    @Test
+    @Test  //BECAME OBSOLETE AFTER IMPLEMENTING GUI 
     public void testIntPlayer() {
         System.out.println("intPlayer");
         boolean boolPlayer = false;
@@ -48,14 +48,14 @@ public class BoardTest {
         int expResult = 0;
         int result = instance.intPlayer(boolPlayer);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+
        
     }
 
     /**
      * Test of boolPlayer method, of class Board.
      *//*
-    @Test
+    @Test//BECAME OBSOLETE AFTER IMPLEMENTING GUI
     public void testBoolPlayer() {
         System.out.println("boolPlayer");
         int color = 0;
@@ -63,7 +63,7 @@ public class BoardTest {
         boolean expResult = true;
         boolean result = instance.boolPlayer(color);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+      
 
     }
 
@@ -106,7 +106,7 @@ public class BoardTest {
         boolean expResult = false;
         boolean result = instance.findLegalMoveNew(move, player);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+       
 
     }
 
@@ -122,7 +122,7 @@ public class BoardTest {
         ArrayList result = instance.validMove(color);
         expResult = result;
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+       
         
     }
 
@@ -136,7 +136,7 @@ public class BoardTest {
         model.Board instance = new model.Board();
         boolean result = instance.setCanSelect(move);
         assertEquals(true,result);
-        // TODO review the generated test code and remove the default call to fail.
+       
 
     }
 
@@ -151,7 +151,7 @@ public class BoardTest {
         boolean expResult = true;
         boolean result = instance.canSelect(move);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+       
  
     }
 
@@ -165,7 +165,7 @@ public class BoardTest {
         int player = 0;
         model.Board instance = new model.Board();
         instance.replaceChip(move, player);
-        // TODO review the generated test code and remove the default call to fail.
+      
     
     }
 
@@ -180,7 +180,7 @@ public class BoardTest {
         int expResult = 64; //
         int result = instance.getChipsCount(color)-2;//minus 2, because BOTH players have 2 points at start
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+       
 
     }
 
@@ -194,21 +194,21 @@ public class BoardTest {
         int expResult = 4;
         int result = instance.totalTurns();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+       
        
     }
 
     /**
      * Test of gameOver method, of class Board.
      */
-  /*  @Test
-    public void testGameOver() {   WORK IN PROGRESS; FUNCTION IS NOT READY
+    @Test
+    public void testGameOver() {   
         System.out.println("gameOver");
         Board instance = new Board();
         boolean expResult = false;
         boolean result = instance.gameOver();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+      
     
-    }*/ 
+    }
 }

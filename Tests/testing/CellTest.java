@@ -46,8 +46,7 @@ public class CellTest {
         boolean expResult = true;
         boolean result = instance.isEmpty();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-       // fail("The test case is a prototype.");
+ 
     }
 
     /**
@@ -59,8 +58,7 @@ public class CellTest {
         int player = 0;
         model.Cell instance = new model.Cell();
         instance.placeChip(player);
-        // TODO review the generated test code and remove the default call to fail.
-       // fail("The test case is a prototype.");
+      
     }
 
     /**
@@ -71,36 +69,33 @@ public class CellTest {
         System.out.println("changeChip");
         model.Cell instance = new model.Cell();
         instance.changeChip();
-        // TODO review the generated test code and remove the default call to fail.
-       // fail("The test case is a prototype.");
+     
     }
 
     /**
      * Test of isWhite method, of class Cell.
      *//*
-    @Test
+    @Test //OBSOLETE AFTER IMPLEMENTING GUI
     public void testIsWhite() {
         System.out.println("isWhite");
         model.Cell instance = new model.Cell();
         boolean expResult = false;
         boolean result = instance.isWhite();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+
     }
 
     /**
      * Test of isBlack method, of class Cell.
      *//*
-    @Test
+    @Test //OBSOLETE AFTER IMPLEMENTING GUI
     public void testIsBlack() {
         System.out.println("isBlack");
         Cell instance = new Cell();
         boolean expResult = false;
         boolean result = instance.isBlack();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+ 
     }
 
     /**
@@ -125,8 +120,7 @@ public class CellTest {
         System.out.println("unselect");
         model.Cell instance = new model.Cell();
         instance.unselect();
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+
     }
 
     /**
@@ -139,8 +133,7 @@ public class CellTest {
         int expResult = -1;
         int result = instance.getPlayer();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-       // fail("The test case is a prototype.");
+
     }
 
     /**
@@ -151,8 +144,7 @@ public class CellTest {
         System.out.println("setSelect");
         model.Cell instance = new model.Cell();
         instance.setSelect();
-        // TODO review the generated test code and remove the default call to fail.
-       // fail("The test case is a prototype.");
+
     }
 
     /**
@@ -163,7 +155,6 @@ public class CellTest {
         System.out.println("display");
         model.Cell instance = new model.Cell();
         instance.display();
-        // TODO review the generated test code and remove the default call to fail.
-       // fail("The test case is a prototype.");
+  
     }
 }
